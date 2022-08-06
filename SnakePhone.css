@@ -1,0 +1,59 @@
+#snake img {
+	height: 20vh;
+	width: 25vw;
+}
+
+#singleSnake {
+	height: 9vh;
+	width: 8vw;
+}
+
+.alertBox {
+	width: 95vw;
+	word-wrap: normal;
+	height: max-content;
+	padding-bottom: 2vh;
+}
+
+.heading {
+	margin-top: 2vh;
+	margin-right: 2vw;
+	font-size: 10px;
+}
+
+#hiscoreBox {
+	font-size: 10px;
+	margin-bottom: 5vh;
+}
+
+#scoreBox {
+	font-size: 10px;
+	margin-bottom: 5vh;
+
+}
+
+#snake {
+	width: 22vw;
+}
+
+#board {
+	margin-top: 8vh;
+	height: 80vh;
+	width: 65vw;
+}
+
+.snake {
+	width: 5vw;
+}
+
+.food {
+	width: 6vw;
+
+
+}
+
+.head {
+	width: 6vw;
+
+
+}

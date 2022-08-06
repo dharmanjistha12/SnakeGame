@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Press+Start+2P&family=Signika:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P', cursive;
+}
+.alertBox{
+	height: 30px;
+	padding-top: 12px;
+	width: 1481px;
+	margin: 5px 10px;
+	background-color: rgb(154, 252, 255);
+	color: rgb(35, 60, 114);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;
+}
+.heading{
+	margin: 0vh 0vw 1vh 2.8vw;
+}
+.flex{
+	display: flex;
+	margin-top: 2vh;
+}
+#singleSnake{
+	height: 20vh;
+	width: 12vw;
+}
+#single{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+#scoreBox{
+	font-size: medium;
+	font-weight: bolder;
+	margin: 15vh 2vh 1vh 4vw ;
+}
+#hiscoreBox{
+font-size: medium;
+font-weight: bolder;
+margin: 1vh 2vh 1vh 4vw ;
+}
+#snake img{
+	height: 30vh;
+	width: 20vw;
+}
+#board{
+	display: grid;
+	grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+	height: 92vh;
+	width: 60vw;
+	background-image: linear-gradient(rgb(225, 255, 89),rgb(255, 255, 102));
+	opacity: 0.98;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	border-radius: 12px;
+}
+.head{
+	background-image: linear-gradient(rgb(248, 149, 165),skyblue);
+    transform: scale(1.02);
+	border-radius: 35px;
+}
+.food{
+	background-image: linear-gradient(gold,rgba(241, 16, 91, 0.966));
+	border-radius: 10px;
+}
+.snake{
+	background-image: linear-gradient(violet,rgb(58, 7, 58));
+	border-radius: 9px;
+}

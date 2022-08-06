@@ -1,0 +1,31 @@
+#hiscoreBox {
+	font-size: 13px;
+	margin-bottom: 5vh;
+}
+.alertBox{
+	width: 97vw;
+	word-wrap: normal;
+	height: max-content;
+	padding-bottom: 2vh;
+}
+#scoreBox {
+	font-size: 13px;
+
+	margin-bottom: 5vh;
+
+}
+.snake {
+	width: 5vw;
+}
+
+.food {
+	width: 6vw;
+
+
+}
+
+.head {
+	width: 6vw;
+
+
+}
